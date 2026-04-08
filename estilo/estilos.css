@@ -41,9 +41,18 @@ h2 {
 #iniciar input[type="checkbox"] {
     width: 20px;
 }
-header img{
-    width: 200px;
+/* Móvil primero */
+header img {
+  width: 100px;
+  margin-left: 3rem;
 }
+
+ @media screen and (max-width: 1200px) {
+  header img {
+    width: 200px;
+  }
+}
+
 
 .static img{
     min-width:300px;
